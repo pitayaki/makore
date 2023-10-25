@@ -6,10 +6,10 @@ var rndListItem = function(array){
 };
 
 var actions = {
-    Names:function(){
+    Response:function(){
       return rndListItem([
-        "Coral, ",
-        "Bat, ",
+        "אתה יודע... כמה שאפשר",
+        "מחזיקים מעמד *משיכה בכפתיים*",
         "Linoy, ",
 "Noy, ",
 "Shiran, ",
