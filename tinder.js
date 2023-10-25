@@ -10,8 +10,8 @@ var actions = {
       return rndListItem([
         "אתה יודע... כמה שאפשר",
         "מחזיקים מעמד *משיכה בכפתיים*",
-        "Linoy, ",
-"Noy, ",
+        "עושים מה שאפשר",
+"אני לא כ״כ יודעת מה לענות בימים הא",
 "Shiran, ",
 "Shiraz, ",
 "Tair, ",
@@ -113,10 +113,7 @@ function getRandomImage() {
 module.exports =  function(){
   with(actions){
     var str = Names();
-	str +=  Age() + "</br>" + From() + "</br>";
-    str += Love1() + " " + Love2() + " " + Love3() + "</br>";
-    str += Extra() + "</br>";
-    str += lookingFor();
+	str +=  Response() 
     return str;
   }
 };
