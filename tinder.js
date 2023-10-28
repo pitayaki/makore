@@ -15,7 +15,8 @@ var actions = {
 "אתה יודע...",
 "קשה... אבל ממשיכים",
 "*עצימה איטית של עיניים והנהון*",
-	
+"די חרא",
+"פיזית אני בסדר, מנטלית פחות..."
       ]);
     },
     Age:function(){
@@ -108,8 +109,7 @@ function getRandomImage() {
 
 module.exports =  function(){
   with(actions){
-    var str = Names();
-	str +=  Response() 
+    var str = Response();
     return str;
   }
 };
